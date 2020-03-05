@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:layout_marginTop="70dp"
+        android:textAlignment="center"
+        android:id="@+id/resCorrect"
+        android:background="@color/colorPrimary"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:layout_marginTop="70dp"
+        android:textAlignment="center"
+        android:id="@+id/resWrong"
+        android:background="@color/colorAccent"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:layout_marginTop="70dp"
+        android:id="@+id/resFull"
+        android:textAlignment="center"
+        android:background="@color/colorPrimaryDark"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="70dp"
+        android:id="@+id/btnQuit"
+        android:background="@color/colorPrimary"
+        android:onClick="onClickQuit"/>
+
+</LinearLayout>

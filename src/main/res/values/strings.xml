@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">QuizProject</string>
+    <string name="textView">Тестирование</string>
+    <string name="hintText">Введите имя</string>
+    <string name="buttonName">Начать тест</string>
+    <string name="buttonQuit">Выйти</string>
+    <string name="buttonNext">Следующий вопрос</string>
+</resources>
